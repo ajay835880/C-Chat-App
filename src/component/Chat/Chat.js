@@ -88,7 +88,7 @@ import ReactScrollToBotton from "react-scroll-to-bottom";
 
 let socket; // Declare socket in global scope
 
-const ENDPOINT = "http://localhost:4500/";
+const ENDPOINT = "https://backend-hxam.onrender.com";
 
 const Chat = () => {
     const [id, setId] = useState("");
